@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# uploaded product images are stored on the server
+/public/uploads/products/*
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
